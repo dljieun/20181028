@@ -1,0 +1,365 @@
+
+<!doctype html>
+
+<html>
+<head></head>
+
+<title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</title>
+<style type="text/css">
+	
+
+
+
+
+	#flower {width:500px; height: 317px; position: absolute; top: 20%; left: 30%;
+		background: url('change1.png'); background-size: cover;}
+
+	#next {width: 45px; height: 61px; position: absolute; top: 38%; left: 53%;
+		background: url('but.jpg'); background-size: cover;}
+	#prev {width: 45px; height: 61px; position: absolute; top: 38%; left: 35%; background: url('but2.jpg'); background-size: cover;}
+	#back {width: 100%; height: 100vh; position: absolute; background: url('back1.jpg')no-repeat; background-size: cover; }
+
+	#what {width: 40px; position: absolute; opacity: 0; left: 19%;
+		animation:drop 3s infinite ;  }
+	#what2 {width: 40px; position: absolute; opacity: 0;  left: 30%;
+		animation:drop 5s infinite ;  }	
+	#what3 {width: 60px; position: absolute; opacity: 0;  left: 39%;
+		animation:drop 1s infinite ;  }
+	#what4 {width: 20px; position: absolute; opacity: 0;  left: 21%;
+		animation:drop 3s infinite ;  }
+	#what5 {width: 20px; position: absolute; opacity: 0;  left: 29%;
+		animation:drop 1s infinite ;  }
+	#what6 {width: 80px; position: absolute; opacity: 0; left: 89%;
+		animation:drop 4s infinite ;  }
+	#what7 {width: 70px; position: absolute; opacity: 0; left: 9%;
+		animation:drop 1s infinite ;  }
+	#what8 {width: 70px; position: absolute; opacity: 0; left: 55%;
+		animation:drop 1s infinite ;  }
+	#what9 {width: 20px; position: absolute; opacity: 0;left: 76%;
+		animation:drop 2s infinite ;  }
+	#what10 {width: 60px; position: absolute; opacity: 0; left: 44%;
+		animation:drop 3s infinite ;  }
+	#what11 {width: 90px; position: absolute; opacity: 0;  left: 25%;
+		animation:drop 2s infinite ;  }
+	#what12 {width: 90px; position: absolute; opacity: 0;  left: 94%;
+		animation:drop 4s infinite ;  }
+	#what13 {width: 20px; position: absolute; opacity: 0;  left: 63%;
+		animation:drop 5s infinite ;  }
+
+
+
+	@keyframes drop { from {margin-top: 0%;}
+						to {margin-top: 60%; } }
+
+
+	
+
+</style>
+<body>
+	<div id="back"></div>
+	<div id="flower"></div>
+	<div class="w3-container">
+  
+  	<div id="imgwrap">
+  		<img id="what" src="question.png">
+  		<img id="what2" src="question.png">
+  		<img id="what3" src="question.png">
+  		<img id="what4" src="question.png">
+  		<img id="what5" src="question.png">
+  		<img id="what6" src="question.png">
+  		<img id="what7" src="question.png">
+  		<img id="what8" src="question.png">
+  		<img id="what9" src="question.png">
+  		<img id="what10" src="question.png">
+  		<img id="what11" src="question.png">
+  		<img id="what12" src="question.png">
+  		<img id="what13" src="question.png">
+
+  	</div>	
+	
+	
+	</div>
+	<button id="next"></button>
+	<button id="prev" ></button>
+	<audio id="bbi" src="bbibic.mp3"></audio>
+	<audio id="shalala" src="shalala.mp3"></audio>
+
+
+	<script type="text/javascript">
+
+		var currentFlower = 1;
+
+		next.onclick = function(){
+			
+			if(currentFlower == 1){
+				flower.style.background = "url('change222.png')";
+				currentFlower = 2;
+				back.style.background = "url('back2.jpg')";
+				currentBack = 2;
+				shalala.play();
+			
+				what.style.opacity=0;
+				what2.style.opacity=0;
+				what3.style.opacity=0;
+				what4.style.opacity=0;
+				what5.style.opacity=0;
+				what6.style.opacity=0;
+				what7.style.opacity=0;
+				what8.style.opacity=0;
+				what9.style.opacity=0;
+				what10.style.opacity=0;
+				what11.style.opacity=0;
+				what12.style.opacity=0;
+				what13.style.opacity=0;
+				
+
+			}else if( currentFlower == 2){
+				flower.style.background = "url('change33.png')";
+				currentFlower = 3; 
+				back.style.background = "url('back3.jpg')";
+				currentBack = 3; 
+				shalala.play();
+				
+				what.style.opacity=0;
+				what2.style.opacity=0;
+				what3.style.opacity=0;
+				what4.style.opacity=0;
+				what5.style.opacity=0;
+				what6.style.opacity=0;
+				what7.style.opacity=0;
+				what8.style.opacity=0;
+				what9.style.opacity=0;
+				what10.style.opacity=0;
+				what11.style.opacity=0;
+				what12.style.opacity=0;
+				what13.style.opacity=0;
+				
+				
+			}else if( currentFlower == 3){
+				flower.style.background = "url('change4.png')";
+				currentFlower = 4; 
+				back.style.background = "url('back4.jpg')";
+				currentBack = 4;
+				shalala.play();
+			
+				what.style.opacity=0;
+				what2.style.opacity=0;
+				what3.style.opacity=0;
+				what4.style.opacity=0;
+				what5.style.opacity=0;
+				what6.style.opacity=0;
+				what7.style.opacity=0;
+				what8.style.opacity=0;
+				what9.style.opacity=0;
+				what10.style.opacity=0;
+				what11.style.opacity=0;
+				what12.style.opacity=0;
+				what13.style.opacity=0;
+				
+				
+			}else if( currentFlower == 4){
+				flower.style.background = "url('change55.png')";
+				currentFlower = 5; 
+				back.style.background = "url('back5.jpg')";
+				currentBack = 5; 
+				bbi.play();
+				what.animationPlayState = "running";
+				what2.animationPlayState = "running";
+				what3.animationPlayState = "running";
+				what4.animationPlayState = "running";
+				what5.animationPlayState = "running";
+				what6.animationPlayState = "running";
+				what7.animationPlayState = "running";
+				what8.animationPlayState = "running";
+				what9.animationPlayState = "running";
+				what10.animationPlayState = "running";
+				what11.animationPlayState = "running";
+				what12.animationPlayState = "running";
+				what13.animationPlayState = "running";
+
+				what.style.opacity=1;
+				what2.style.opacity=1;
+				what3.style.opacity=1;
+				what4.style.opacity=1;
+				what5.style.opacity=1;
+				what6.style.opacity=1;
+				what7.style.opacity=1;
+				what8.style.opacity=1;
+				what9.style.opacity=1;
+				what10.style.opacity=1;
+				what11.style.opacity=1;
+				what12.style.opacity=1;
+				what13.style.opacity=1;
+		
+
+
+			}else if( currentFlower == 5){
+				flower.style.background = "url('change1.png')";
+				currentFlower = 1; 
+				back.style.background = "url('back1.jpg')";
+				currentBack = 1;	
+	
+				what.style.opacity=0;
+				what2.style.opacity=0;
+				what3.style.opacity=0;
+				what4.style.opacity=0;
+				what5.style.opacity=0;
+				what6.style.opacity=0;
+				what7.style.opacity=0;
+				what8.style.opacity=0;
+				what9.style.opacity=0;
+				what10.style.opacity=0;
+				what11.style.opacity=0;
+				what12.style.opacity=0;
+				what13.style.opacity=0;
+				
+			}
+			flower.style.backgroundSize = "cover";
+			back.style.backgroundSize = "cover";
+		}
+
+		
+		prev.onclick = function(){
+
+				if( currentFlower == 1){
+				flower.style.background = "url('change55.png')";
+				currentFlower = 2; 
+				back.style.background = "url('back5.jpg')";
+				currentBack = 2; 
+				bbi.play();
+				
+				what.animationPlayState = "running";
+				what2.animationPlayState = "running";
+				what3.animationPlayState = "running";
+				what4.animationPlayState = "running";
+				what5.animationPlayState = "running";
+				what6.animationPlayState = "running";
+				what7.animationPlayState = "running";
+				what8.animationPlayState = "running";
+				what9.animationPlayState = "running";
+				what10.animationPlayState = "running";
+				what11.animationPlayState = "running";
+				what12.animationPlayState = "running";
+				what13.animationPlayState = "running";
+
+				what.style.opacity=1;
+				what2.style.opacity=1;
+				what3.style.opacity=1;
+				what4.style.opacity=1;
+				what5.style.opacity=1;
+				what6.style.opacity=1;
+				what7.style.opacity=1;
+				what8.style.opacity=1;
+				what9.style.opacity=1;
+				what10.style.opacity=1;
+				what11.style.opacity=1;
+				what12.style.opacity=1;
+				what13.style.opacity=1;
+
+
+
+			}else if( currentFlower == 2){
+				flower.style.background = "url('change4.png')";
+				currentFlower = 3; 
+				back.style.background = "url('back4.jpg')";
+				currentBack = 3;
+				shalala.play();
+				what.style.opacity= 0;
+				what2.style.opacity=0;
+				what3.style.opacity=0;
+				what4.style.opacity=0;
+				what5.style.opacity=0;
+				what6.style.opacity=0;
+				what7.style.opacity=0;
+				what8.style.opacity=0;
+				what9.style.opacity=0;
+				what10.style.opacity=0;
+				what11.style.opacity=0;
+				what12.style.opacity=0;
+				what13.style.opacity=0;	
+				
+		
+				
+			}else if( currentFlower == 3){
+				flower.style.background = "url('change33.png')";
+				currentFlower = 4; 
+				back.style.background = "url('back3.jpg')";
+				currentBack = 4; 
+				shalala.play();
+				
+
+				what.style.opacity=0;
+				what2.style.opacity=0;
+				what3.style.opacity=0;
+				what4.style.opacity=0;
+				what5.style.opacity=0;
+				what6.style.opacity=0;
+				what7.style.opacity=0;
+				what8.style.opacity=0;
+				what9.style.opacity=0;
+				what10.style.opacity=0;
+				what11.style.opacity=0;
+				what12.style.opacity=0;
+				what13.style.opacity=0;
+				
+			}else if( currentFlower == 4){
+				flower.style.background = "url('chang222.png')";
+				currentFlower = 5; 
+				back.style.background = "url('back2.jpg')";
+				currentBack = 5;
+				
+				
+				what.style.opacity=0;
+				what2.style.opacity=0;
+				what3.style.opacity=0;
+				what4.style.opacity=0;
+				what5.style.opacity=0;
+				what6.style.opacity=0;
+				what7.style.opacity=0;
+				what8.style.opacity=0;
+				what9.style.opacity=0;
+				what10.style.opacity=0;
+				what11.style.opacity=0;
+				what12.style.opacity=0;
+				what13.style.opacity=0;
+				
+			}
+
+			else if( currentFlower == 5){
+				flower.style.background = "url('chang1.png')";
+				currentFlower = 1; 
+				back.style.background = "url('back1.jpg')";
+				currentBack = 1;
+				
+			
+	
+
+			what.style.opacity=0;
+				what2.style.opacity=0;
+				what3.style.opacity=0;
+				what4.style.opacity=0;
+				what5.style.opacity=0;
+				what6.style.opacity=0;
+				what7.style.opacity=0;
+				what8.style.opacity=0;
+				what9.style.opacity=0;
+				what10.style.opacity=0;
+				what11.style.opacity=0;
+				what12.style.opacity=0;
+				what13.style.opacity=0;
+				
+
+		}
+				flower.style.backgroundSize = "cover";
+			back.style.backgroundSize = "cover";
+
+		}
+
+    </script>
+
+ </body>
+</html>
